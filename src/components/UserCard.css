@@ -1,0 +1,36 @@
+.container {
+  background: white;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1rem 4rem 0 rgba(106, 95, 199, 0.07);
+  display: flex;
+  align-items: center;
+}
+
+.mid-col {
+  flex: auto;
+  padding-right: 2rem;
+}
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6rem;
+  margin-right: 3rem;
+  filter: grayscale(1);
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2E3041;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.location {
+  color: #7C93A9;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+}
